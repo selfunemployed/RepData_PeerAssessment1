@@ -143,14 +143,16 @@ plot(averageStepsPerIntervalWeekend$interval,
      type = "l",
      main = "Weekend Activity",
      xlab = "Interval",
-     ylab = "Average Number of Steps")
+     ylab = "Average Number of Steps",
+     ylim = c(0,250))
 
 plot(averageStepsPerIntervalWeekday$interval,
      averageStepsPerIntervalWeekday$steps,
      type = "l",
      main = "Weekday Activity",
      xlab = "Interval",
-     ylab = "Average Number of Steps")
+     ylab = "Average Number of Steps",
+     ylim = c(0,250))
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-12-1.png) 
